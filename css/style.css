@@ -3,6 +3,17 @@
 body {
     background-color: #292759;
 }
+button {
+    padding: auto;
+    margin: auto;
+    background-color: #591E2E;
+    font-family: Garamond;
+    font-size: 21px;
+    color: #F2D0C4;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Header */
 .inline-block {
     display: flex;
@@ -37,52 +48,42 @@ body {
     padding: 10px
 }
 
-.content {
+.herocontainer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
     background-color: #445CA6;
-    width: 1370px;
     margin: 0 auto;
     color: #F2D0C4;
 }
 
-.content img{
-    height: 20%;
-    width: 20%;
-    padding: 10px;
+#profile{
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+}
+.herocontainer p {
+    width: 75%;
+    padding: 40px;
 }
 
-.around {
-    padding: 15px;
+.herocontainer h2 {
+    padding: 30px;
 }
 
-.about {
-    font-family: Garamond;
-    font-size: 24px;
-}
-
-.buttin {
-    float: right;
-    padding-top: 100px;
-}
-
-button {
-    padding: auto;
-    margin: auto;
+.butten {
     background-color: #591E2E;
-    font-family: Garamond;
-    font-size: 21px;
-    color: #F2D0C4;
-    align-items: center;
-    justify-content: center;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
 }
 
 /* Section my Skills*/ 
 
 .title { 
     color: #F2D0C4;
-    padding: 2%; 
+    padding: 20px; 
 }
 
 .flexContainer {
