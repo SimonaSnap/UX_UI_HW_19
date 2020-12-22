@@ -33,11 +33,8 @@
             <div>
                 <h2>About</h2>
                 <p>A UX Designer with a strong education from Cornish College of the Arts in design, and further trained at UC Berkeley’s UX/UI Bootcamp. Loves to work collaboratively and is strong in public speaking, creativity, and flexibility, also knows Lithuanian. </p>
-                <div class="butten" id="resume">Download Resume</div>
-                <div class=".colorChange"></div>
+                <button id="ResumeBtn" onclick="changeBtnColor()">Download Resume</button>
             </div>
-            
-            
         </div>
     </section>
 
@@ -79,7 +76,7 @@
                 <h4>Yum Yum</h4>
                 <p>Create, Find and Share your cooking journey with those around you. An app that will help you find and adapt recipes to your needs, as well as follow and take part in cooking events with friends.
                 </p>
-                <button>Read More</button>
+                <button id="yum_button" onclick="changeBtn2Color()">View More</button>
             </div>
             
             <div id="imagine_logo">
@@ -87,9 +84,9 @@
             </div>
             <div id="imagine_content">
                 <h4>Imagination Library</h4>
-                <p>A look at the nonprofit the Imagination Library, an organization geared towards growing child literacy rates, and what can be done to improve their online presence.
+                <p>A look at the nonprofit the Imagination Library, an organi(zation geared towards growing child literacy rates, and what can be done to improve their online presence.
                 </p>
-                <button>View More</button>
+                <button id="imagine_button" onclick="changeBtn3Color()">View More</button>
             </div>
             
             <div id="safe_logo">
@@ -101,16 +98,14 @@
                     they are covid safe as they go about 
                     the town.
                     </p>
-                <button>View More</button>
+                <button id="safe_button" onclick="changeBtn4Color()">View More</button>
             </div>
         </div>
-        <button class="projects"><h3>View all Projects</h3></button>
+        <button class="projects" id="project_button" onclick="changeBtn5Color()"><h3>View all Projects</h3></button>
     </section>
 
     <footer class="long">
-        <div class="subheading">
-            Back to Top
-        </div>
+        <button class="top" onclick="topFunction()" id="topbtn">Back to Top</button>
         <section class="footerGrid">
             <div id="LinkedIn" class="footerGridArea">
             </div>

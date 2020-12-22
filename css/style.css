@@ -45,7 +45,6 @@ button {
 /* Section about summary */
 .herolmg {
     height: 600px;
-    padding: 10px
 }
 
 .herocontainer {
@@ -53,6 +52,7 @@ button {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    width: 90%;
     background-color: #445CA6;
     margin: 0 auto;
     color: #F2D0C4;
@@ -72,13 +72,10 @@ button {
     padding: 30px;
 }
 
-.butten {
-    background-color: #591E2E;
-    width: 130px;
-    padding: 5px;
-    text-align: center;
+.herolmg button {
+    float: right !important;
+    margin: 10px;
 }
-
 /* Section my Skills*/ 
 
 .title { 
@@ -235,12 +232,9 @@ button {
     padding: 30px;
 }
 
-.subheading {
-    font-size: 28px;
-    color: #F2D0C4;
-    font-family: Garamond;
-    text-align: center;
-    padding-bottom: 25px;
+.top {
+    margin:10px;
+    margin-left: 45%;
 }
 
 .footerGridArea {
